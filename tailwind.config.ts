@@ -9,7 +9,6 @@ const config: Config = {
 			gridTemplateRows: {
 				app: "5rem 1fr",
 			},
-			backgroundImage: {},
 			keyframes: {
 				rotateText: {
 					"0%": { top: "100%", opacity: "0" },
@@ -21,9 +20,6 @@ const config: Config = {
 			},
 			animation: {
 				rotateText: "rotateText 6s linear infinite",
-			},
-			boxShadow: {
-				test: "15px 0 0 0 #FFFF00, -5px 0 0 0 #FFFF00",
 			},
 		},
 	},

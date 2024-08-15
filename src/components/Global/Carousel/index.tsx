@@ -2,6 +2,7 @@
 
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { FC, ReactNode, Children, useState, useEffect } from "react"
+import { useAutoAnimate } from "@formkit/auto-animate/react"
 
 import { useMediaQuery } from "react-responsive"
 
@@ -14,6 +15,9 @@ interface CarouselProps {
 export const Carousel: FC<CarouselProps> = ({ children: slides }) => {
 	const [startIndex, setStartIndex] = useState(0)
 	const [visibleCount, setVisibleCount] = useState(1)
+	const [parent] = useAutoAnimate({
+		duration: 500,
+	})
 	const totalCards = Children.count(slides)
 
 	// Breakpoints
@@ -52,12 +56,8 @@ export const Carousel: FC<CarouselProps> = ({ children: slides }) => {
 					<ChevronLeft className="h-6 w-6 text-white" />
 				</Button>
 			</div>
-			<div className="flex space-x-4">
-				{visibleCards.map((card, index) => (
-					<div key={index} className="flex-none">
-						{card}
-					</div>
-				))}
+			<div className="flex space-x-4" ref={parent}>
+				{visibleCards}
 			</div>
 			<div className="flex w-2/12 items-center">
 				<Button

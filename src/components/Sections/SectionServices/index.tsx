@@ -15,7 +15,7 @@ export const SectionServices: FC = () => {
 			</h1>
 			<div className="mx-auto flex items-center justify-center">
 				<Carousel>
-					{Array(6)
+					{Array(10)
 						.fill(null)
 						.map((_, index) => (
 							<div
