@@ -22,7 +22,7 @@ export const SectionPlans: FC = () => {
 								key={index}
 								className="group flex max-w-72 flex-col gap-6 rounded-md bg-zinc-700 px-6 py-10 text-zinc-50"
 							>
-								<Settings className="h-8 w-8 text-yellow-500 transition-all" />
+								<Settings className="h-8 w-8 text-yellow-500 transition-all group-hover:animate-bounce" />
 								<h2 className="relative text-sm leading-3">
 									Plano
 									<span className="ml-1 block text-2xl font-bold text-yellow-300">Start</span>

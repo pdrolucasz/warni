@@ -2,6 +2,7 @@ import { SectionTop } from "@/components/Sections/SectionTop"
 import { SectionServices } from "@/components/Sections/SectionServices"
 import { SectionIntroPlans } from "@/components/Sections/SectionIntroPlans"
 import { SectionPlans } from "@/components/Sections/SectionPlans"
+import { SectionAbout } from "@/components/Sections/SectionAbout"
 
 export default function Home() {
 	// https://dev.to/dailydevtips1/tailwind-css-full-screen-video-header-5539
@@ -11,7 +12,7 @@ export default function Home() {
 			<SectionServices />
 			<SectionIntroPlans />
 			<SectionPlans />
-			<div className="min-h-screen" />
+			<SectionAbout />
 		</main>
 	)
 }
