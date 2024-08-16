@@ -6,9 +6,9 @@ import { Carousel } from "@/components/Global/Carousel"
 export const SectionServices: FC = () => {
 	return (
 		<section className="flex min-h-screen flex-col items-center justify-center gap-6 text-zinc-700">
-			<h1 className="relative whitespace-pre text-center text-2xl lg:text-4xl">
-				Mix completo de soluções{"\n"}
-				<span className="font-bold">
+			<h1 className="relative text-center text-2xl lg:text-4xl">
+				Mix completo de soluções
+				<span className="block font-bold">
 					para sua empresa
 					<span className="absolute bottom-0 -z-10 h-4 w-1/2 -translate-x-32 transform bg-yellow-300 lg:-translate-x-44" />
 				</span>

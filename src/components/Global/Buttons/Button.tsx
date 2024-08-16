@@ -10,13 +10,11 @@ const button = tv({
 	],
 	variants: {
 		variant: {
-			primary: "bg-yellow-600 text-white hover:bg-yellow-700",
 			ghost: "rounded-md px-2 hover:bg-zinc-50 shadow-none text-zinc-500 ",
-			outline: "border border-zinc-300 text-zinc-700 hover:bg-zinc-50 ",
 		},
 	},
 	defaultVariants: {
-		variant: "outline",
+		variant: "ghost",
 	},
 })
 
