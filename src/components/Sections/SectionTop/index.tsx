@@ -1,8 +1,10 @@
 import { FC } from "react"
+import { Header } from "@/components/Global/Header"
 
 export const SectionTop: FC = () => {
 	return (
 		<section className="flex min-h-screen items-center justify-center">
+			<Header />
 			<h1 className="relative text-4xl font-bold text-zinc-700 lg:text-6xl">
 				Ideias e Soluções em
 				<span className="relative inline-block h-16 w-full overflow-hidden text-center align-bottom">

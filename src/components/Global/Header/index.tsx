@@ -9,7 +9,7 @@ import { Button } from "../Buttons/Button"
 
 export const Header: FC = () => {
 	return (
-		<Collapsible.Root className="fixed left-0 right-0 top-0 z-20 flex flex-col gap-6 p-4 data-[state=open]:bottom-0 lg:flex-row lg:justify-around">
+		<Collapsible.Root className="absolute left-0 right-0 top-0 z-20 flex flex-col gap-6 p-4 data-[state=open]:bottom-0 lg:flex-row lg:justify-around">
 			<div className="flex items-center justify-between">
 				<h1 className="font-serif text-2xl font-bold text-zinc-600">
 					<span className="text-yellow-400">WAR</span>NI
