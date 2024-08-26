@@ -20,23 +20,23 @@ export const SectionPlans: FC = () => {
 						.map((_, index) => (
 							<div
 								key={index}
-								className="group flex max-w-72 flex-col gap-6 rounded-md bg-zinc-700 px-6 py-10 text-zinc-50"
+								className="group flex max-w-56 flex-col gap-6 rounded-md bg-zinc-700 px-6 py-10 text-zinc-50 lg:max-w-72"
 							>
 								<Settings className="h-8 w-8 text-yellow-500 transition-all group-hover:animate-bounce" />
 								<h2 className="relative text-sm leading-3">
 									Plano
 									<span className="ml-1 block text-2xl font-bold text-yellow-300">Start</span>
 								</h2>
-								<p className="text-md">
+								<p className="text-sm lg:text-base">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 									Ipsum has been the industry standard dummy text ever since the 1500s
 								</p>
 								<ul className="list-disc px-8">
-									<li className="text-sm">Planejamento</li>
-									<li className="text-sm">Jornalismo e redação</li>
-									<li className="text-sm">Design e criação</li>
-									<li className="text-sm">Gestão de anúncios pagos</li>
-									<li className="text-sm">Análise estratégica</li>
+									<li className="text-xs lg:text-sm">Planejamento</li>
+									<li className="text-xs lg:text-sm">Jornalismo e redação</li>
+									<li className="text-xs lg:text-sm">Design e criação</li>
+									<li className="text-xs lg:text-sm">Gestão de anúncios pagos</li>
+									<li className="text-xs lg:text-sm">Análise estratégica</li>
 								</ul>
 							</div>
 						))}

@@ -2,6 +2,7 @@
 
 import { FC, useRef } from "react"
 import { motion } from "framer-motion"
+import { CardInteractive } from "./CardInteractive"
 
 export const SectionAboutInteractive: FC = () => {
 	const constraintsRef = useRef(null)
@@ -18,15 +19,7 @@ export const SectionAboutInteractive: FC = () => {
 				ref={constraintsRef}
 			>
 				{words.map((word) => (
-					<motion.div
-						key={word}
-						className={`rounded-full bg-orange-950 p-4 shadow-2xl ${Math.random() < 0.5 ? "text-yellow-300" : ""}`}
-						drag
-						dragElastic={0}
-						dragConstraints={constraintsRef}
-					>
-						<h1 className="text-2xl font-bold lg:text-4xl">{word}</h1>
-					</motion.div>
+					<CardInteractive key={word} word={word} constraintsRef={constraintsRef} />
 				))}
 			</motion.div>
 		</section>

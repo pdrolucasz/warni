@@ -28,33 +28,33 @@ export const SectionAbout: FC = () => {
 				</motion.div>
 			</motion.div>
 			<div className="grid h-[50vh] grid-cols-2 divide-x text-center text-zinc-50">
-				<p className="content-center text-3xl lg:text-6xl">
+				<p className="content-center text-xl lg:text-6xl">
 					<span className="block">10</span>
 					anos criando soluções
 				</p>
-				<div className="grid grid-cols-2 content-center">
-					<div className="grid grid-rows-2 gap-6">
-						<p className="text-sm">
-							<span className="block text-3xl font-bold lg:text-6xl">+32</span>
+				<div className="grid grid-cols-1 content-center lg:grid-cols-2">
+					<div className="grid grid-rows-1 gap-6 lg:grid-rows-2">
+						<p className="text-xs lg:text-sm">
+							<span className="block text-xl font-bold lg:text-6xl">+32</span>
 							contas de google ads{" "}
-							<span className="text-md lg: block text-lg underline">gerenciadas</span>
+							<span className="lg: block text-sm underline lg:text-lg">gerenciadas</span>
 						</p>
-						<p className="text-sm">
-							<span className="block text-3xl font-bold lg:text-6xl">+32</span>
+						<p className="text-xs lg:text-sm">
+							<span className="block text-xl font-bold lg:text-6xl">+32</span>
 							contas de google ads{" "}
-							<span className="text-md lg: block text-lg underline">gerenciadas</span>
+							<span className="lg: block text-sm underline lg:text-lg">gerenciadas</span>
 						</p>
 					</div>
-					<div className="grid grid-rows-2 gap-6">
-						<p className="text-sm">
-							<span className="block text-3xl font-bold lg:text-6xl">+32</span>
+					<div className="grid grid-rows-1 gap-6 lg:grid-rows-2">
+						<p className="text-xs lg:text-sm">
+							<span className="block text-xl font-bold lg:text-6xl">+32</span>
 							contas de google ads{" "}
-							<span className="text-md lg: block text-lg underline">gerenciadas</span>
+							<span className="lg: block text-sm underline lg:text-lg">gerenciadas</span>
 						</p>
-						<p className="text-sm">
-							<span className="block text-3xl font-bold lg:text-6xl">+32</span>
+						<p className="text-xs lg:text-sm">
+							<span className="block text-xl font-bold lg:text-6xl">+32</span>
 							contas de google ads{" "}
-							<span className="text-md lg: block text-lg underline">gerenciadas</span>
+							<span className="lg: block text-sm underline lg:text-lg">gerenciadas</span>
 						</p>
 					</div>
 				</div>
