@@ -5,7 +5,7 @@ import { Button } from "@/components/Global/Buttons/Button"
 
 export const SectionContact: FC = () => {
 	return (
-		<section className="flex flex-col gap-6 bg-zinc-700 p-6 text-zinc-50 lg:grid lg:min-h-screen lg:grid-cols-2 lg:place-items-center lg:p-0">
+		<section className="flex flex-col gap-6 bg-zinc-700 p-6 text-zinc-50 lg:grid lg:grid-cols-2 lg:place-items-center lg:p-0 lg:pb-6">
 			<div className="flex flex-col gap-6">
 				<h1 className="text-2xl lg:text-4xl">Quer entrar em contato?</h1>
 				<div>

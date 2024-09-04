@@ -66,6 +66,7 @@ export const CardPortfolio: FC<CardPortfolioProps> = ({ work, setWorks, constrai
 			className="absolute flex h-auto w-[65vw] cursor-grab flex-col gap-2 rounded-lg bg-zinc-50 p-1 shadow-lg active:cursor-grabbing lg:w-[20vw] lg:p-2"
 			style={{ x: randomX, y: randomY, rotate: work.rotate, zIndex: work.zIndex }}
 			drag
+			dragElastic={0}
 			dragConstraints={constraintsRef}
 			onTapStart={() => onTapStarted(work.id)}
 		>

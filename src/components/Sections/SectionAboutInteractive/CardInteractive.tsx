@@ -37,7 +37,7 @@ export const CardInteractive: FC<CardInteractiveProps> = ({ word, constraintsRef
 
 	return (
 		<motion.div
-			className={`absolute cursor-grab rounded-full bg-orange-950 p-2 shadow-2xl active:cursor-grabbing lg:p-4 ${Math.random() < 0.5 ? "text-yellow-300" : ""}`}
+			className={`absolute cursor-grab rounded-full bg-orange-950 p-2 shadow-lg active:cursor-grabbing lg:p-4 ${Math.random() < 0.5 ? "text-yellow-300" : ""}`}
 			style={{ x: randomX }}
 			drag
 			dragElastic={0}

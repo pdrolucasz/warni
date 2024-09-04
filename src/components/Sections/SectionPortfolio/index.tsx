@@ -51,7 +51,8 @@ export const SectionPortfolio: FC = () => {
 	])
 
 	return (
-		<section className="relative flex flex-col items-center justify-center gap-6 overflow-hidden bg-zinc-700 text-zinc-50 lg:min-h-screen">
+		<section className="relative flex flex-col items-center justify-center gap-6 overflow-hidden bg-zinc-700 pb-12 text-zinc-50 lg:min-h-screen lg:gap-12">
+			<h1 className="text-center text-2xl font-thin lg:text-4xl">Nosso portifólio</h1>
 			<motion.div
 				className="flex h-screen w-full place-content-center place-items-center overflow-hidden"
 				ref={constraintsRef}
