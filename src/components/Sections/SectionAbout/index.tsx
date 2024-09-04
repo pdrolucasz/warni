@@ -20,7 +20,7 @@ export const SectionAbout: FC = () => {
 			<motion.div className="sticky top-0 flex h-[50vh] items-center overflow-hidden" style={{ position }}>
 				<motion.div style={{ x }} className="flex gap-4">
 					<motion.h1
-						className="text-4xl font-medium uppercase text-yellow-300 lg:text-8xl"
+						className="text-6xl font-medium uppercase text-yellow-300 lg:text-8xl"
 						style={{ x: textX }}
 					>
 						Somos a Warni

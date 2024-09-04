@@ -15,7 +15,7 @@ export const SectionIntroPlans: FC = () => {
 	const scale = useTransform(scrollYProgress, [0, 1], [2, 1])
 
 	return (
-		<section className="flex min-h-screen items-center justify-center overflow-hidden bg-yellow-300 uppercase text-zinc-50">
+		<section className="flex items-center justify-center overflow-hidden bg-yellow-300 pt-6 uppercase text-zinc-50 lg:min-h-screen lg:pt-0">
 			<motion.div ref={target} style={{ scale }} transition={{ duration: 1, ease: "easeInOut" }}>
 				<h1 className="max-w-screen-2xl text-center text-4xl lg:text-8xl">
 					Ações estratégicas para alcançar os objetivos do seu negócio
